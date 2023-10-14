@@ -1,6 +1,6 @@
 all : menu
 menu.o : menu.c
-    gcc -c main.c
+    gcc -c menu.c
 index_first_zero.o : index_first_zero.с
     gcc -c index_first_zero.с
 index_last_zero.o : index_last_zero.c
