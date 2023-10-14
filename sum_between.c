@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include "index_first_zero.h"
+#include "index_last_zero.h"
 #define pair arr, arr_len
 int sum_between(int arr[], int arr_len) {
     int sum = 0;

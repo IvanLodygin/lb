@@ -1,3 +1,4 @@
+all: menu
 menu.o: menu.c
     gcc -c main.c
 index_first_zero.o: index_first_zero.с
@@ -11,4 +12,3 @@ sum_before_and_after.o: sum_before_and_after.c
 menu: menu.o index_first_zero.o index_last_zero.o sum_between.o sum_before_and_after.o
     gcc menu.o index_first_zero.o index_last_zero.o sum_between.o sum_before_and_after.o -o menu
     rw *.o
-all: menu
